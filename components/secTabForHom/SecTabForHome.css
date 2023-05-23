@@ -1,0 +1,102 @@
+.css-1n3h4wo{
+    display: flex !important;
+    height: 650px !important;
+    width: 80% !important;
+    margin: auto !important;
+}
+.css-35zqo5-MuiTabs-root{
+    width: 30% !important
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    background: white !important;
+    color: black !important;
+    border-radius: 50px 0px 0px 50px !important;
+}
+.css-1cgx7kx-MuiTabs-scroller{
+    background-color: #00D285;
+    padding-top: 40px;
+}
+.css-10d9dml-MuiTabs-indicator{
+    background-color: #00D285 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    font-size: 18px !important;
+    align-items: baseline !important;
+    padding:  20px 20px !important ;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    padding-left: 50px;
+}
+#vertical-tabpanel-0{
+    width:70% !important;
+    border: 3px solid #00D285;
+}
+#vertical-tabpanel-1{
+    width:70% !important;
+    border: 3px solid #00D285;
+}
+#vertical-tabpanel-2{
+    width:70% !important;
+    border: 3px solid #00D285;
+}
+#vertical-tabpanel-3{
+    width:70% !important;
+    border: 3px solid #00D285;
+}
+#vertical-tabpanel-4{
+    width:70% !important;
+    border: 3px solid #00D285;
+}
+#vertical-tabpanel-5{
+    width:70% !important;
+    border: 3px solid #00D285;
+}
+#vertical-tabpanel-6{
+    width:70% !important;
+    border: 3px solid #00D285;
+}
+#vertical-tabpanel-7{
+    width:70% !important;
+    border: 3px solid #00D285;
+}
+#vertical-tabpanel-8{
+    width:70% !important;
+    border: 3px solid #00D285;
+}
+#vertical-tabpanel-9{
+    width:70% !important;
+    border: 3px solid #00D285;
+}
+.secTabist-main-div{
+    padding: 40px 77px 25px 75px;
+}
+.tablsit-sec-h2{
+    font-size: 40px;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.paragraph-sec-tablsst{
+    font-size: 22px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.row-sec-tablsit{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.colm-tablist-sec ul li{
+    list-style: circle;
+    font-size: 22px;
+    font-family: 'Nunito Sans';
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #00D285;
+}
+.colm-tablist-sec ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}

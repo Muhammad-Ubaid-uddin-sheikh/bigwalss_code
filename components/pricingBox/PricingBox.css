@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800&display=swap');
+#icon-checkcircle-price{
+    color: black;
+}
+#pedal-bike-pricing{
+    font-size:76px;
+    color: #00D285;
+    transition: all 0.4s ease-in-out;
+
+}
+.colm-pricing-inner-box{
+    margin-top: -15px;
+}
+.colm-main-pricing{
+    transition: all 0s ease !important;
+    position: relative;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    z-index: 2;
+    color: rgba(var(--main-bg-color), 1);
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+  padding:35px 20px 28px 35px;
+}
+.colm-main-pricing::before {
+   width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(103, 103, 103);
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transform-style: preserve-3d;
+    transform: rotateY(-10deg);
+    /* filter: blur(20px); */
+    transition: all .2s linear 0s;
+    background: white;
+}
+.colm-main-pricing::after {
+        background: white;
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transform: rotateY(-10deg);
+        transform-style: preserve-3d;
+        transform: rotateY(-10deg);
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 0 1px transparent;
+        cursor: pointer;
+        box-shadow: 3px 2px 4px 1px black;
+}
+.small-pricing-old{
+    position:relative;
+    font-size:26px;
+    color:black;
+    font-family:'Nunito Sans', sans-serif;
+    padding-left:10px;
+    font-weight:800
+
+}
+.small-pricing-old::after{
+    border-bottom: 0.15rem solid black;
+    content: "";
+    left: 15px;
+    margin-top: calc(0.2rem / 2 * -1);
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.h3-pricing-box{
+    line-height: 1;
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.pakages{
+    align-items: center;
+    display: flex;
+    font-size: 19px;
+    font-family: 'Nunito Sans';
+    gap: 16px;
+    font-weight: 500;
+}
+.pakagres-price{
+max-height: 174px;
+width: 100%;
+overflow: auto;
+}
+.third-row{
+    display:flex;
+    justify-content:space-between;
+}
+.PricingBox-main-div{
+    width:100%;
+    /* background: rgb(235, 250, 244); */
+    padding-bottom: 40px;
+}
+.row-procing-box{
+    display:flex;
+    justify-content:space-between;
+    width: 99%;
+    margin: auto;
+}
+.colm-pricing-box{
+    width:100%;
+    /* padding-left:50px; */
+    transition: all 0s ease !important;
+    position: relative;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    /* z-index: 2; */
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.pricinbg-page-box{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #00D285;
+}
+.small-pricing{
+    font-size: 23px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+
+}
+#personal-edit-pricing{
+    display: flex;
+    justify-content: inherit;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#button-price-project{
+    background: black;
+    font-family: 'Nunito Sans';
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    border-radius: 0px;
+    box-shadow: 0px 0px 2px 2px black;
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+.third-div-prices-caa{
+    padding-top: 40px;
+}
+.paragraph-pricing-box{
+    display: grid;
+    font-size: 17px;
+    font-family: 'Nunito Sans';
+}
+.span-pricing-box{
+    font-weight: 900;
+    font-family: 'Nunito Sans';
+    padding-top: 7px;
+    font-size:20px;
+}
+hr{
+    color: #777;
+    margin-bottom: 30px;
+}
+.colm-main-pricing:hover::after{
+    background-color: #00D285;
+    box-shadow:3px 2px 4px 1px white ; 
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(109.6deg, rgb(0, 192, 131) 11.2%, rgb(32, 40, 48) 91.3%);
+    /* background:linear-gradient(transparent,#00D285); */
+    border-radius: 6px;
+
+}
+#button-price-project:hover{
+    color: black;
+    background-color: white;
+}

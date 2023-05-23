@@ -1,0 +1,43 @@
+#tabs-Block{
+    /* background: #EBFAF4; */
+    font-weight: bold;
+    font-family: 'Nunito Sans';
+    transition: 0.5s all ease in out;
+    transition: all 0.5s ease;
+    margin-top:20px
+    
+}
+.css-1gsv261{
+    display: flex;
+    justify-content: center;
+    border:0px solid #EBFAF4 !important;
+}
+.css-jpln7h-MuiTabs-scroller {
+overflow: hidden !important;
+margin-bottom: 0px !important;
+display: flex !important;
+justify-content: center !important;
+background-color: white !important;
+border-radius: 30px 0px 30px 0px !important;
+}
+.css-1aquho2-MuiTabs-indicator{
+    right: 54% !important;
+    height: 0px !important;
+    background-color: #00D285 !important;
+
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    background: #00D285;
+    color: white !important;
+    border-radius: 30px 0px 30px 0px;
+    transition: 0.5s all ease-in-out;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 400;
+}
+.css-19kzrtu{
+    padding: 0 !important;
+}

@@ -1,0 +1,88 @@
+.slick-slider {
+    width: 85%;
+    margin: auto;
+    padding: 0px 0px 50px 0px 
+}
+.slick-next:before{
+    font-size: 50px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+}
+.slick-prev:before{
+    font-size: 50px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+}
+.slick-slider .slick-list, .slick-slider .slick-track{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 22px;
+}
+.Main-div-CArd-sldier{
+    padding: 50px 0pc 50px 0px;
+}
+
+    
+
+.main-card-image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 15px 15px 0px 0px;
+    /* border: 2px solid green; */
+    background: #00D285;
+    padding: 20px;
+}
+.imkage-container{
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center;
+    border: 5px solid white;
+}
+.text-div{
+    text-align: center;
+    padding-top: 20px;
+}
+#rating-paragraph{
+ display:flex;
+ justify-content: center;
+ padding-top: 7px;
+}
+.text-div-h2{
+    font-family: 'Nunito Sans';
+    font-weight: 500;
+    color: black;
+    font-size: 22px;
+}
+.css-dqr9h-MuiRating-label{
+    font-size: 25px;
+    color: #00D285;
+}
+.paragrapht{
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Nunito Sans';
+    color: black;
+}
+.button-slider{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#button-slider-button{
+    font-family: "Nunito Sans";
+    background: #00D285;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    font-size: 12px;
+    font-weight: 800;
+}
+#button-slider-button:hover{
+    background: #02aa6d;
+}
